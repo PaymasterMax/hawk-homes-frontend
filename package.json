@@ -51,6 +51,6 @@
 		"svelte-carousel": "^1.0.25",
 		"svelte-french-toast": "^1.2.0",
 		"svelte-intersection-observer": "^0.10.0",
-		"zod": "^3.22.2"
+		"zod": "^3.22.3"
 	}
 }
