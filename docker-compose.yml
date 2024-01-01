@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+    jirani-client:
+        container_name: jirani-client
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+
+    server:
+        container_name: nginx_server
+        build:
+            context: ./server
+            dockerfile: ./Dockerfile
+
+        ports:
+            - '80:80'

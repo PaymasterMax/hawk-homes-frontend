@@ -1,0 +1,10 @@
+export { default as HomeHeader } from "./header.svelte";
+export { default as HomeAbout } from "./about.svelte";
+export { default as HomeFeature } from "./feature.svelte";
+export { default as HomeService } from "./services.svelte";
+export { default as HomeCom } from "./communitues.svelte";
+export { default as HomeSold } from "./sold.svelte";
+export { default as HomeMony } from "./homeTestmony.svelte";
+export { default as HomeBlog } from "./blog.svelte";
+export { default as HomeLetter } from "../../components/common/letter.svelte";
+export { default as Footer } from "../../components/common/footer.svelte";
